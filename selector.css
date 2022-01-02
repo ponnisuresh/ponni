@@ -1,0 +1,31 @@
+  * {
+      color: rgb(21, 241, 131);
+  }
+  
+  .cloud {
+      background-color: aqua;
+      background-image: url(Baby.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  
+  .text-white {
+      /* class */
+      color: rgb(78, 11, 236);
+  }
+  
+  .cloud h1 {
+      color: blueviolet;
+      color: white;
+  }
+  
+  .cloud p {
+      font-size: 30px;
+      color: white;
+  }
+  
+  #cloud {
+      /* id */
+      background-color: blueviolet;
+      color: aqua;
+  }

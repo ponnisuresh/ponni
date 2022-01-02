@@ -1,0 +1,285 @@
+            .float {
+                background-color: rgb(233, 10, 147);
+                padding: 50px;
+                color: white;
+            }
+            
+            .float img {
+                float: left;
+                background-color: aquamarine;
+                padding: 10px;
+                margin-right: 70px;
+            }
+            
+            .float-example>div {
+                /* float: 23px 0; */
+                padding: 10px 0;
+                width: 100px;
+                text-align: center;
+            }
+            
+            .green {
+                background-color: rgb(213, 9, 231);
+                float: left;
+                /* padding: 10px 0; */
+            }
+            
+            .yellow {
+                background-color: rgb(240, 25, 204);
+                float: left;
+                /* padding: 10px 0; */
+            }
+            
+            .blue {
+                background-color: rgb(8, 236, 95);
+                float: left;
+                padding: 10px 0;
+            }
+            
+            .white {
+                background-color: rgb(206, 11, 11);
+                float: left;
+                padding: 10px 0;
+            }
+            
+            .pink {
+                background-color: rgb(100, 11, 218);
+                float: right;
+                padding: 10px 0;
+            }
+            
+            .black {
+                background-color: rgb(17, 13, 10);
+                float: right;
+                padding: 10px 0;
+            }
+            
+            .brown {
+                background-color: rgb(173, 219, 7);
+                float: right;
+                padding: 10px 0;
+            }
+            
+            .orange {
+                background-color: rgb(236, 130, 8);
+                float: right;
+                padding: 10px 0;
+            }
+            
+            .clearboath {
+                clear: boath;
+            }
+            /* weblayout css */
+            
+            .weblayout div {
+                padding: 30px 0;
+                text-align: center;
+                margin: 20px 0;
+            }
+            
+            h2 {
+                text-align: center;
+            }
+            
+            .navbar {
+                background-color: rgb(159, 240, 9);
+            }
+            /* .content {
+    background-color: rgb(16, 16, 24);
+    float: left;
+    width: 33.33%;
+    height: 200px;
+} */
+            
+            .sidebar {
+                background-color: blueviolet;
+                float: left;
+                width: 33.33%;
+                height: 200px;
+            }
+            
+            .breaf {
+                background-color: rgb(19, 226, 81);
+                float: left;
+                width: 33.33%;
+                height: 200px;
+            }
+            
+            .menu {
+                background-color: rgb(219, 16, 26);
+                float: left;
+                width: 33.33%;
+                height: 200px;
+            }
+            
+            .footer {
+                background-color: rgb(14, 150, 86);
+                clear: both;
+            }
+            /* End of weblayout code */
+            /* Start of Combinators css */
+            
+            .clearboth {
+                clear: both;
+            }
+            
+            #adjacent-selector h2 {
+                color: blue;
+            }
+            /* /* #adjacent-selector>h2 {
+    color: rgb(241, 14, 14);    
+} */
+            /* #adjacent-selector+h2 {
+    color: rgb(0, 255, 128);
+}
+
+#adjacent-selector~h2 {
+    color: rgb(255, 72, 0);
+}  */
+            /* End of the combinators */
+            /* 23PSEUDO ELEMENT START CODE */
+            
+            .pseudo-element p::first-letter {
+                color: rgb(241, 18, 148);
+                font-weight: bold;
+                font-size: 30px;
+            }
+            
+            .pseudo-element p::first-line {
+                color: rgb(218, 11, 11);
+            }
+            
+            .pseudo-element>h1::before {
+                content: "Smile";
+            }
+            
+            .pseudo-element>h1::after {
+                content: "Selection";
+            }
+            
+             ::selection {
+                background-color: rgb(11, 236, 67);
+                color: white;
+            }
+            /* END CODE */
+            /* OPACITY START CODE */
+            
+            .opacity img {
+                margin-right: 70px;
+                opacity: 1.0;
+            }
+            
+            .opacity {
+                width: 500px;
+                opacity: 1;
+            }
+            
+            .opacity>img:hover {
+                opacity: 0.5;
+            }
+            /* OPACITY END CODE */
+            /* STRT ATTRIBUTE CODE */
+            
+            span[title] {
+                color: blueviolet;
+            }
+            
+            span[alt] {
+                color: rgb(219, 18, 18);
+            }
+            
+            span[title~="country"] {
+                color: rgb(127, 255, 176);
+            }
+            
+            span[title~="India"] {
+                background-color: aqua;
+            }
+            
+            [class|="content"] {
+                background-color: blueviolet;
+            }
+            
+            [class^="contant"] {
+                color: blue;
+            }
+            
+            [class*="footer"] {
+                color: rgb(206, 12, 12);
+            }
+            /* ATTRIBUTE END CODE */
+            /* 26FORM BULDFORUI START CODE  */
+            
+            input[type="text"] {
+                width: 100%;
+                padding: 10px 25px;
+                margin: 20px 0;
+                border: 2px solid rgb(148, 148, 147);
+                border-radius: 12px;
+                box-sizing: border-box;
+            }
+            
+            button[type="submit"] {
+                width: 100%;
+                background-color: blueviolet;
+                padding: 10px;
+                margin: 12px 0;
+                border-radius: 15px;
+                cursor: pointer;
+            }
+            
+            button[type="submit"]:hover {
+                background-color: rgb(221, 9, 133);
+            }
+            /* END CODE */
+            /* 27css counters start code */
+            
+            h1::before {
+                counter-increment: videos+2;
+                content: "videos" counter(videos)": ";
+                color: wheat;
+            }
+            
+            body {
+                counter-reset: videos;
+            }
+            /* END OF THE CODE */
+            /*28 MEDIA QUERIES   */
+            
+            body {
+                background-color: brown;
+            }
+            
+            @media screen and (max-width:800px) {
+                body {
+                    background-color: blue;
+                }
+            }
+            
+            @media screen and (max-width:200px) {
+                body {
+                    background-color: rgb(69, 218, 11);
+                }
+            }
+            /* END OF THE CODE  */
+            /* 29 UNITS  */
+            /* .units h2 {
+                font-size: 20cm;
+            } */
+            
+            .units h2 {
+                font-size: 20px;
+            }
+            /* 30 priority css */
+            
+            h3 {
+                background-color: rgb(224, 174, 7);
+            }
+            
+            .priority h3 {
+                background-color: rgb(247, 19, 57);
+            }
+            
+            #priority1 h3 {
+                background-color: rgb(28, 15, 211);
+            }

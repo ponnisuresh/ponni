@@ -1,0 +1,16 @@
+.list {
+    background-color: aquamarine;
+}
+
+ol {
+    background: greenyellow;
+    padding: 1px;
+    list-style-position: inside;
+    list-style-image: url(flowers.jpg);
+}
+
+ol li {
+    background: greenyellow;
+    padding: 2px;
+    margin-left: 20px;
+}

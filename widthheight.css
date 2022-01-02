@@ -1,0 +1,25 @@
+                .testimonial h1 {
+                    font-weight: "bold";
+                }
+                /* width/Height */
+                
+                .testimonial {
+                    padding: 20px;
+                    width: auto;
+                    /* height: 500px; */
+                    background-color: rgb(236, 28, 150);
+                }
+                /* css outline  */
+                
+                .outline {
+                    padding: 50px;
+                    border: 20px solid;
+                    outline: 2px double;
+                    outline-style: dashed;
+                    outline-color: blue;
+                    background-color: aquamarine;
+                }
+                
+                .outline {
+                    font-weight: bold;
+                }

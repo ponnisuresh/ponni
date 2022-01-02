@@ -1,0 +1,27 @@
+.tables {
+    background-color: rgb(226, 226, 12);
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tables {
+    border: 2px white;
+}
+
+th {
+    font-size: 20px;
+    background-color: aquamarine;
+    padding: 16px;
+}
+
+td {
+    padding: 10px;
+}
+
+tr:hover {
+    background-color: blue;
+}
+
+tr:nth-child(odd) {
+    background-color: blueviolet;
+}

@@ -1,0 +1,36 @@
+/* Background image */
+
+.border h1 {
+    background-color: blue;
+    background-image: url(Baby.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: dotted;
+    border-top: solid;
+    border-bottom: dotted;
+    border-left: dotted;
+    border-right: dotted;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+/* button creation */
+
+.border button {
+    background-color: rgb(25, 238, 36);
+    border-style: dotted;
+    border-radius: 20px;
+    border-width: 12px;
+    color: blue;
+    /* css margin */
+    margin: 50px 100px 50px 100px;
+}
+
+p {
+    color: white;
+}
+
+.border image {
+    margin-top: 30px;
+}

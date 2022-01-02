@@ -1,0 +1,52 @@
+.links {
+    padding: 50px;
+    background-color: aquamarine;
+}
+
+.links a {
+    color: aqua;
+}
+
+.links a {
+    color: rgb(76, 0, 255);
+}
+
+.links a:visited {
+    color: blueviolet;
+}
+
+.links a:hover {
+    color: brown;
+}
+
+.links a:active {
+    color: antiquewhite;
+}
+
+.facebook {
+    paddind: 50px;
+    color: blue;
+    border-radius: 20px;
+    background-color: rgb(14, 14, 124);
+}
+
+.twitter {
+    paddind: 50px;
+    color: rgb(67, 245, 106);
+    border-radius: 20px;
+    background-color: rgb(14, 14, 245);
+}
+
+.youtube {
+    paddind: 50px;
+    color: rgb(236, 236, 240);
+    border-radius: 20px;
+    background-color: rgb(230, 41, 16);
+}
+
+.linkedin {
+    paddind: 90px;
+    color: rgb(16, 16, 75);
+    border-radius: 20px;
+    background-color: rgb(16, 16, 230);
+}

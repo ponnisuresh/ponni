@@ -1,0 +1,14 @@
+.textformate {
+    background-color: aqua;
+}
+
+.textformate {
+    text-align: justify;
+    color: blue;
+    /* text-decoration: overline; */
+    /* text-transform: uppercase; */
+    /* text-transform: lowercase; */
+    /* text-transform: capitalize; */
+    /* text-indent: 20px; */
+    /* line-height: 1.5; */
+}

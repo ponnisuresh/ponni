@@ -1,0 +1,71 @@
+.float {
+    background-color: rgb(233, 10, 147);
+    padding: 50px;
+    color: white;
+}
+
+.float img {
+    float: left;
+    background-color: aquamarine;
+    padding: 10px;
+    margin-right: 30px;
+}
+
+.float-example>div {
+    /* float: 23px 0; */
+    padding: 10px 0;
+    width: 100px;
+    text-align: center;
+}
+
+.green {
+    background-color: rgb(213, 9, 231);
+    float: left;
+    /* padding: 10px 0; */
+}
+
+.yellow {
+    background-color: rgb(240, 25, 204);
+    float: left;
+    /* padding: 10px 0; */
+}
+
+.blue {
+    background-color: rgb(8, 236, 95);
+    float: left;
+    padding: 10px 0;
+}
+
+.white {
+    background-color: rgb(206, 11, 11);
+    float: left;
+    padding: 10px 0;
+}
+
+.pink {
+    background-color: rgb(100, 11, 218);
+    float: right;
+    padding: 10px 0;
+}
+
+.black {
+    background-color: rgb(17, 13, 10);
+    float: right;
+    padding: 10px 0;
+}
+
+.brown {
+    background-color: rgb(173, 219, 7);
+    float: right;
+    padding: 10px 0;
+}
+
+.orange {
+    background-color: rgb(236, 130, 8);
+    float: right;
+    padding: 10px 0;
+}
+
+.clearboath {
+    clear: right;
+}

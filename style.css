@@ -1,0 +1,13 @@
+    h1 {
+        font-family: 'Pushster', cursive;
+        font-size: 100px;
+    }
+    
+    p {
+        font-family: 'Pushster', cursive;
+        font-style: underline;
+    }
+    
+    p span {
+        font-weight: bold;
+    }
