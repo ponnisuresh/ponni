@@ -1,7 +1,7 @@
 /* Background image */
 
 .border h1 {
-    background-color: blue;
+    /* background-color: blue; */
     background-image: url(Baby.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,7 +22,7 @@
     border-style: dotted;
     border-radius: 20px;
     border-width: 12px;
-    color: blue;
+    /* color: blue; */
     /* css margin */
     margin: 50px 100px 50px 100px;
 }
